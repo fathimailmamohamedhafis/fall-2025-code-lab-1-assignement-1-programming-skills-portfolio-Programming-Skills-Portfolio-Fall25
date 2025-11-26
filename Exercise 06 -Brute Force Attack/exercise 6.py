@@ -1,8 +1,8 @@
-actual_password = "12345"   # correct password
-chances = 5                 # total chances the user has to enter the password
+actual_password = "12345" # correct password
+chances = 5 # total chances the user has to enter the password
 
 while chances > 0:
-    password = input("Enter the password: ").strip() #asks user tto input password
+    password = input("Enter the password: ").strip() #asks user to input password
 
     if password == actual_password:   # compare with the variable
         print("Correct password!")
